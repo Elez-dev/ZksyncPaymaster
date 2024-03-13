@@ -1,0 +1,9 @@
+requests==2.31.0
+loguru==0.7.2
+web3==6.15.1
+ccxt==4.2.44
+pandas==2.2.0
+rlp==4.0.0
+tqdm==4.66.2
+msoffcrypto-tool==5.1.1
+openpyxl==3.1.2
