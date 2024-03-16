@@ -4,17 +4,32 @@
 <div align="center">
   <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*WehIRwTjZydXnttPasC0iQ.jpeg"  />
   <h1>ZKSYNC ERA PAYMASTER</h1>
-  <p>Софт на ZKSYNC ERA - включает в себя возможность делать бескомиссионные свапы(PAYMASTER). Доступны данные платформы: Syncswap, Mute.io, Velocore</p>
+  <p>Software on ZKSYNC ERA - includes the ability to do commission-free swaps(PAYMASTER). Available platforms: Syncswap, Mute.io, Velocore</p>
 </div>
 
 ---
 
-🤠👉 <b>Наш канал:</b> [PYTHON DAO](https://t.me/developercode1)
+🤠👉 <b>Our tg-channel:</b> [PYTHON DAO](https://t.me/developercode1)
 
-🤗 <b>Поддержка:</b> elez-dev.eth
+🤗 <b>Supports:</b> elez-dev.eth
 
 ---
 <h2>🙊 INFO</h2>
+
+EN:
+
+You need [Python 3.10.10](https://www.python.org/downloads/release/python-31010/) to work
+
+This guide details how to install Python - [link](https://mirror.xyz/wiedzmin.eth/ygk2pzqaTKaHmnQuV1vV-morIstKnDTJnXPpBaZwnkQ)
+
+1. In the _data_ folder fill the Excel file with private keys
+
+2. All the settings happen in the _settings.py_ file - each line is signed
+
+3. Run through the _main.py_ file
+
+---
+RU:
 
 Для работы нужен [Python 3.10.10](https://www.python.org/downloads/release/python-31010/)
 
@@ -27,7 +42,18 @@
 3. Запускаем через файл _main.py_
 
 ---  
-<h2>🙊 ЧТО ДЕЛАЕТ СОФТ</h2>
+<h2>🙊 HOW IT WORKS</h2>
+
+EN:
+
+- Selects one of the three DEX
+- Buys (USDC,USDT) on DEX with a regular transaction
+- Does a paymaster approve for the USDC or USDT
+- Does a swap for the stablecoins
+- Goes to the next account or repeats the circle
+
+---
+RU:
 
 - Выбирает одну из трёх свапалок
 - Покупает на ней стейблы(USDC,USDT) обычной транзакцией
@@ -36,7 +62,7 @@
 - Идет к следующем аккаунту или повторяет круг
 
 ---
-<h2>🚀 УСТАНОВКА И ЗАПУСК СОФТА</h2>
+<h2>🚀 INSTALLING AND RUNNING SOFTWARE</h2>
 
 ```
 
@@ -51,5 +77,5 @@ python3.10 main.py
 ```
 
 ---
-<h2>❤️ По всем вопросам в наш чат - https://t.me/pythondao</h2>
+<h2>❤️ Any questions in our chat - https://t.me/pythondao</h2>
 
